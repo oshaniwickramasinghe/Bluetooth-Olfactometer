@@ -24,8 +24,6 @@ void setup() {
   Serial.begin(115200);
   SerialBT.begin("ESP32_Robojax"); //Bluetooth device name
   Serial.println("The device started, now you can pair it with bluetooth!");
-  // Serial.println("To turn ON send: 1");//print on serial monitor  
-  // Serial.println("To turn OFF send: 0"); //print on serial monitor 
   pinMode(LEDpinPleasant, OUTPUT);
   pinMode(LEDpinUnpleasant, OUTPUT);
   pinMode(LEDpinNeutral, OUTPUT);
